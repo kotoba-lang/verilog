@@ -1,2 +1,11 @@
-# verilog
-KAMI clj-wgsl migration Phase 4 home (ADR-2607010930) — scaffold, Wave-2 port lands here
+# kotoba-lang/verilog
+
+Kotoba DSL package for `kotoba.verilog`.
+
+The implementation lives in `verilog.core`; `kotoba.verilog` is provided as a compatibility facade.
+
+## Test
+
+```sh
+clojure -M:test
+```
